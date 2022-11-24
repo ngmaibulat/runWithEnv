@@ -4,12 +4,13 @@ Run a Process with specified ENV vars loaded
 
 ### Use as CLI
 
-- create a .env file
-- run: `npx @aibulat/run@latest <cmd>`
+1. create a `.env` file
+2. run: `npx @aibulat/run@latest <cmd>`
 
 ### CLI samples:
 
 ```sh
+npx @aibulat/run@latest env
 npx @aibulat/run@latest ls -la
 npx @aibulat/run@latest cat package.json
 npx @aibulat/run@latest mysql -uroot -p
@@ -40,7 +41,7 @@ run(program: string, args: string[]): Promise<ChildProcess>
 ```json
 {
   "compilerOptions": {
-    "module": "ES2022" /* Specify what module code is generated. */,
+    "module": "ES2022",
     "moduleResolution": "nodenext"
   }
 }
