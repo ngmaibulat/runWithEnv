@@ -2,10 +2,10 @@
   "name": "@aibulat/run",
   "version": "0.0.3",
   "description": "Run a program with env vars specified",
-  "main": "./dist/run.js",
+  "main": "./dist/lib.js",
+  "types": "./dist/lib.d.ts",
   "bin": "./dist/run.js",
-  "type": "commonjs",
-  "types": "./dist/run.d.ts",
+  "type": "module",
   "scripts": {
     "test": "node --test",
     "build": "tsc",

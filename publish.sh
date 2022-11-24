@@ -1,6 +1,11 @@
 #!/bin/bash
 
-npx esbuild src/run.ts --bundle --outdir=dist --format=cjs --platform=node --target=es2020
+# esbuild does not bundle well: esm+nodejs+bundle
+# either stick to CJS
+# or use something else/don't bundle
+# npx esbuild src/run.ts --bundle --outdir=dist --format=esm --platform=node --target=es2020
+
+tsc
 
 npm run commit
 

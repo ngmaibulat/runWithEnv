@@ -1,12 +1,6 @@
 #!/usr/bin/env node
 
-import child_process from "node:child_process";
-import * as dotenv from "dotenv";
-dotenv.config();
-
-// console.log(process.env);
-// console.log(process.argv);
-// console.log(process.argv.slice(2));
+import { run } from "./lib.js";
 
 if (process.argv.length < 3) {
     console.error("Please provide command to run");
@@ -15,9 +9,8 @@ if (process.argv.length < 3) {
 
 const program = process.argv[2];
 const args = process.argv.slice(3);
-const spawn = child_process.spawn;
 
-const cmd = spawn(program, args, { stdio: "inherit" });
+const cmd = run(program, args);
 
 // cmd.stdout.pipe(process.stdout);
 
