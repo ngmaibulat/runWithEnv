@@ -1,0 +1,41 @@
+{
+  "name": "@aibulat/run",
+  "version": "0.0.1",
+  "description": "Run a program with env vars specified",
+  "main": "./dist/run.js",
+  "type": "module",
+  "types": "./dist/run.d.ts",
+  "scripts": {
+    "test": "node --test",
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "commit": "tsc; git add . ; git commit -a -m minor; git push",
+    "alga": "bash publish.sh"
+  },
+  "keywords": [
+    "run",
+    "exec",
+    "execute",
+    "spawn",
+    "process",
+    "subprocess",
+    "child process"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngmaibulat/runWithEnv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ngmaibulat/runWithEnv/issues"
+  },
+  "homepage": "https://github.com/ngmaibulat/runWithEnv#readme",
+  "author": "Aibulat",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.11.9"
+  },
+  "dependencies": {
+    "@aibulat/isfile": "^0.0.3",
+    "dotenv": "^16.0.3"
+  }
+}
