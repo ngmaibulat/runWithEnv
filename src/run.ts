@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import child_process from "node:child_process";
 import * as dotenv from "dotenv";
 dotenv.config();

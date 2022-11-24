@@ -1,6 +1,6 @@
 #!/bin/bash
 
-npm run build
+npx esbuild src/run.ts --bundle --outdir=dist --format=cjs --platform=node --target=es2020
 
 npm run commit
 

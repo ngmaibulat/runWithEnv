@@ -10,6 +10,7 @@
 - write README.md
 
 - if needed: set bin entry in package.json
+- put shebang: #!/usr/bin/env node
 
 - write tests
 - test whole package

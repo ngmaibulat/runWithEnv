@@ -4,7 +4,7 @@
   "description": "Run a program with env vars specified",
   "main": "./dist/run.js",
   "bin": "./dist/run.js",
-  "type": "module",
+  "type": "commonjs",
   "types": "./dist/run.d.ts",
   "scripts": {
     "test": "node --test",
@@ -33,7 +33,8 @@
   "author": "Aibulat",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^18.11.9"
+    "@types/node": "^18.11.9",
+    "esbuild": "^0.15.15"
   },
   "dependencies": {
     "@aibulat/isfile": "^0.0.3",
