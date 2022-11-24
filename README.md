@@ -5,7 +5,7 @@ Run a Process with specified ENV vars loaded
 ### Use
 
 - create a .env file
-- run: `npx @aibulat/run@latest`
+- run: `npx @aibulat/run@latest <cmd>`
 
 ### Examples:
 

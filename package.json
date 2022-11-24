@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Run a program with env vars specified",
   "main": "./dist/run.js",
+  "bin": "./dist/run.js",
   "type": "module",
   "types": "./dist/run.d.ts",
   "scripts": {

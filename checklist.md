@@ -9,6 +9,8 @@
 - publish
 - write README.md
 
+- if needed: set bin entry in package.json
+
 - write tests
 - test whole package
 - build via esbuild
