@@ -1,7 +1,0 @@
-- api
-- intercept input/output
-- log input/output
-- log with ansi coloring
-- option to modify input/output
-- piping without using inherit option
-- ansible to deploy the tool: deploy nodejs, copy tool, assign as the shell to users

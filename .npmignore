@@ -2,7 +2,9 @@ src
 *.sh
 .editorconfig
 .prettierrc.json
+
 checklist.md
+todo.md
 
 tsconfig.json
 tsc-types.json

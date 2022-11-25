@@ -15,6 +15,7 @@ npx @aibulat/run@latest ls -la
 npx @aibulat/run@latest cat package.json
 npx @aibulat/run@latest mysql -uroot -p
 npx @aibulat/run@latest bash
+npx @aibulat/run@latest htop
 npx @aibulat/run@latest node somescript.js
 ```
 

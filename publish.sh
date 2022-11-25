@@ -12,3 +12,5 @@ npm run commit
 npm version patch
 
 npm publish
+
+git push
